@@ -14,5 +14,7 @@ class Park
     def add_passenger(passenger)
         @passengers << passenger
     end
-    
+    def revenue(cost)
+        @passengers.find_all
+    end
 end

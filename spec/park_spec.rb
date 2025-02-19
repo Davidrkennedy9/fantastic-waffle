@@ -48,7 +48,7 @@ RSpec.describe Park do
             expect(@park.passengers).to eq([@charlie, @taylor, @mike])
         end
         it "can see revenue" do
-            
+            expect(@park.revenue).to eq(60)
         end
     end
 
